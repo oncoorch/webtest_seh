@@ -21,15 +21,15 @@ npm install
 npm run build
 ```
 
-Confirmar rama `main`, puerto interno `3000`, Dockerfile presente y ausencia de secretos.
+Confirmar rama `production`, puerto interno `8080`, Dockerfile presente y ausencia de secretos.
 
 ### Configuracion Dokploy
 
 - Proveedor: GitHub.
 - Repositorio: `oncoorch/webtest_seh`.
-- Rama: `main`.
+- Rama: `production`.
 - Metodo: Dockerfile.
-- Puerto interno: `3000`.
+- Puerto interno: `8080`.
 - HTTPS: activo cuando se asigne dominio.
 
 ### Validacion
@@ -38,7 +38,7 @@ Verificar en escritorio y movil: portada, `/educacion`, `/agenda-nacional`, nave
 
 ### DNS
 
-Solicitar confirmacion explicita del hostname final, aplicar exactamente el registro DNS indicado por Dokploy y verificar resolucion + HTTPS antes de anunciar el sitio.
+Usar el hostname final confirmado `test-seh.oncoorch.com`, aplicar en Cloudflare un registro `A` hacia la IP publica del VPS NICOP y verificar resolucion + HTTPS antes de anunciar el sitio.
 
 ## Politica de contenido
 
@@ -50,4 +50,4 @@ Solicitar confirmacion explicita del hostname final, aplicar exactamente el regi
 
 ## Version actual
 
-`v1.0.0`.
+`v1.0.1`.
