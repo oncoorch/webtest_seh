@@ -6,6 +6,18 @@ Repositorio del portal institucional, cientifico y educativo de la Sociedad Ecua
 
 Esta version inicial contiene una propuesta funcional para un sitio moderno de sociedad cientifica nacional, con identidad visual sobria, predominio de azul petroleo, rojo hematologico limitado a acentos y contenidos separados por audiencia profesional, cientifica, institucional y comunitaria.
 
+## Vista previa del sitio
+
+Estas capturas muestran a los usuarios la propuesta visual del modulo de Educacion Continua dentro del portal SEH.
+
+### Educacion Continua - maqueta corregida
+
+![Educacion Continua - maqueta corregida](docs/screenshots/educacion-continua-mockup.jpg)
+
+### Portal de Educacion Continua
+
+![Portal de Educacion Continua](docs/screenshots/educacion-continua-portal.jpg)
+
 ## Modulos incluidos
 
 - Inicio institucional.
